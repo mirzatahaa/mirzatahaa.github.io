@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  font-family: "Sans Francisco", arial, sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #f5f5f5, #e5e5e5);
+  text-align: center;
+  padding: 80px 0;
+}
+
+h1 {
+  font-family: "Sans Francisco", arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: -1px;
+}
+
+#Barre {
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.BarreAlerte {
+  animation: defilement 15s linear infinite;
+}
+
+@keyframes defilement {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.presentation {
+  color: white;
+  background-image: linear-gradient(to bottom, rgb(71, 71, 71), black);
+  display: flex;
+  align-items: center;
+}
+
+.textePresentation {
+  font-family: "Sans Francisco", arial, sans-serif;
+  margin-left: 100px;
+}
+
+.photo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: right;
+  margin-left: 20px;
+  max-width: 300px;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.text {
+  width: calc(100% - 320px);
+}
+
+h2 {
+  font-family: "Sans Francisco", arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+p {
+  font-family: "Sans Francisco", arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#SkillsPresentation {
+  background-image: linear-gradient(to bottom, #f5f5f5, #e5e5e5);
+  text-align: center;
+  padding: 40px 0;
+}
+
+h1 {
+  font-family: "Sans Francisco", arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: -1px;
+}
+
+.skills-banner {
+  padding: 20px;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 100px; /* Définir la largeur de l'image */
+  height: 100px; /* Définir la hauteur de l'image */
+  margin: 0 10px; /* Marge horizontale entre les images */
+}
+
+#FormationsPresentation {
+  background-image: linear-gradient(to bottom, #f5f5f5, #abd3e2);
+  text-align: center;
+  padding: 80px 0;
+}
+
+#Formations {
+  font-family: "Sans Francisco", arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: -1px;
+}
+
+#FormationsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.BACHELOR {
+  font-family: "Sans Francisco", arial, sans-serif;
+  padding-left: 20px;
+  position: relative;
+  justify-content: space-around;
+}
+
+#PrésentationExp {
+  background-image: linear-gradient(to bottom, #abd3e2, #f5f5f5);
+  text-align: center;
+  padding: 80px 0;
+}
